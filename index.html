@@ -4,8 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/logo.png" />
   </head>
-  <body>
-    <header class="header-text">Personal Website</header>
+
+  <body class="scroll-bar">
+    <div class="container">
+      <h1 data-testid="slackDisplayName">Slack Name : Chukwuemeke</h1>
+      <img
+        src="https://ca.slack-edge.com/T07466B189M-U07AG8TU543-8d48ed470c2f-512"
+        data-testid="slackProfilePicture"
+        width="400"
+        height="400"
+        alt="Slack Profile Picture"
+      />
+      <p data-testid="slackEmail">Slack Email: molunoprogress@gmail.com</p>
+      <ul>
+        <li data-testid="currentTimeUTC"></li>
+        <li data-testid="currentDay"></li>
+      </ul>
+      <p class="text">My tech goals for the next 2 years:</p>
+      <ul>
+        <li>Master Frontend Web development (Next.js, React.js, Typescript).</li>
+        <li>Learn how to write clean and maintainable code.</li>
+        <li>Learn application/website scalability and SEO optimization techniques.</li>
+        <li>Improve my DSA and problem solving skills.</li>
+        <li>Learn Mobile Application Development (Flutter and React Native).</li>
+        <li>Master Backend Web development.</li>
+      </ul>
+      <div class="hng-links">
+        <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a
+        ><br />
+        <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a
+        ><br />
+        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+          >Scrape Any Web</a
+        >
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
